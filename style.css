@@ -130,18 +130,24 @@ footer {
 }
 
 .productos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
   padding: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .producto {
+  width: 250px;
   background-color: #f3e6fa;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
 }
+
 
 .producto img {
   width: 100%;
@@ -156,7 +162,18 @@ footer {
 
 .sobre-nosotros {
   background-color: #fdf6ff;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-nosotros-contenedor {
+  background-color: #ffffff;
+  border: 2px solid #cca9dd;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   text-align: center;
 }
 
@@ -166,9 +183,8 @@ footer {
 }
 
 .sobre-nosotros p {
-  max-width: 700px;
-  margin: 0 auto;
   line-height: 1.7;
   color: #4a3b47;
   font-size: 1.1rem;
 }
+
