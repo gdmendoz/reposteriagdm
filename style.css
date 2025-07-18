@@ -73,3 +73,28 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.contacto {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.contacto h2 {
+  margin-bottom: 1rem;
+  color: #cca9dd;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128c4a;
+}
