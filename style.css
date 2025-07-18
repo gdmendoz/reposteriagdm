@@ -98,3 +98,29 @@ footer {
 .btn-whatsapp:hover {
   background-color: #128c4a;
 }
+.productos {
+  padding: 2rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.productos h2 {
+  color: #cca9dd;
+  margin-bottom: 1.5rem;
+}
+
+.productos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.productos li {
+  background-color: #f3e6fa;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #5a3e36;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
