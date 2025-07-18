@@ -124,3 +124,51 @@ footer {
   color: #5a3e36;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.destacados {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.producto {
+  background-color: #f3e6fa;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+}
+
+.producto h3 {
+  margin-top: 0.75rem;
+  color: #5a3e36;
+}
+
+.sobre-nosotros {
+  background-color: #fdf6ff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.sobre-nosotros h2 {
+  color: #cca9dd;
+  margin-bottom: 1rem;
+}
+
+.sobre-nosotros p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #4a3b47;
+  font-size: 1.1rem;
+}
